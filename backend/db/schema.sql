@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS policy_chunks (
     id              SERIAL PRIMARY KEY,
     section_title   VARCHAR(256),
     content         TEXT NOT NULL,
-    embedding       vector(1536),
+    embedding       vector(1024),  -- DO gte-large-en-v1.5 embedding dimension
     chunk_index     INTEGER NOT NULL,
     created_at      TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
