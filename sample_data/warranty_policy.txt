@@ -1,0 +1,297 @@
+VISTATECH TV WARRANTY POLICY
+Effective Date: January 1, 2024
+Document Version: 3.2
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1: WARRANTY OVERVIEW
+
+VistaTech Electronics ("VistaTech", "we", "us") provides a limited warranty
+on all TV products manufactured and sold under the VistaClear, NovaPic, and
+LumaBright brands. This warranty is extended to the original end-user
+purchaser ("Customer") and is non-transferable.
+
+This warranty covers manufacturing defects in materials and workmanship.
+It does not cover damage resulting from accident, misuse, unauthorized
+modification, or normal wear and tear.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 2: WARRANTY COVERAGE PERIODS
+
+2.1 Standard Warranty
+All VistaTech TV models come with a 1-year Standard Warranty from the date
+of purchase. This covers:
+  • Panel defects (dead pixels exceeding 5 pixels in a 1cm² area)
+  • Internal component failure under normal use conditions
+  • Backlight failure not caused by physical damage
+  • Factory software defects present at time of purchase
+
+2.2 Extended Warranty
+Customers who purchase an Extended Warranty plan (available within 30 days
+of original purchase) receive 3 years of additional coverage beyond the
+Standard Warranty, for a total of 4 years from the purchase date. Extended
+Warranty additionally covers:
+  • One free screen replacement due to manufacturing defects
+  • Priority support with a 24-hour response time
+  • Free on-site technician visit (once per warranty term)
+
+2.3 Premium Warranty
+The Premium Warranty plan provides 5 years of total coverage from the date
+of purchase and includes all Extended Warranty benefits plus:
+  • Coverage for accidental physical damage (one claim per year)
+  • Advanced replacement service: a replacement unit is shipped before
+    the defective unit is returned
+  • Dedicated premium support hotline with no wait time
+  • Free annual calibration service
+
+2.4 Panel Size Warranty Addendum
+TVs with screens 65 inches or larger receive an additional 6-month warranty
+extension on the display panel regardless of warranty tier, in recognition
+of the higher mechanical stress on large-format displays.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 3: WHAT IS COVERED
+
+Under all warranty tiers, VistaTech warrants the following:
+
+3.1 Display Panel
+  • Dead pixels: Covered if 5 or more permanently non-functioning pixels
+    are present in any 1cm² area of the screen
+  • Bright or dark spots caused by internal LCD/OLED layer failure
+  • Vertical or horizontal lines running across the display due to
+    internal panel component failure
+
+3.2 Electronics and Circuitry
+  • Main board failure causing no-power or no-picture conditions
+  • Power supply unit (PSU) failure not caused by electrical surges
+  • HDMI port failure (input/output board defects)
+  • USB port failure from internal circuit defects (not physical damage)
+  • Speaker and audio system defects present within the first 90 days
+  • Remote control defects during the first 90 days of ownership
+
+3.3 Software and Firmware
+  • Factory firmware bugs that prevent core TV functions (channel tuning,
+    app launching, menu navigation)
+  • VistaTech will issue software updates free of charge throughout the
+    warranty period to resolve known firmware issues
+  • Smart TV operating system failures caused by internal software faults
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 4: WHAT IS NOT COVERED
+
+The following are explicitly excluded from all warranty coverage:
+
+4.1 Physical Damage
+  • Cracked, broken, or shattered screens from drops, impacts, or pressure
+  • Dents, scratches, or damage to the TV chassis or stand
+  • Damage from falling objects or spills
+  • Bent or broken HDMI/USB ports due to force
+
+4.2 Environmental and Electrical Damage
+  • Damage caused by power surges, lightning strikes, or unstable voltage
+    (use of a surge protector is strongly recommended)
+  • Damage from extreme heat, cold, humidity, or exposure to direct sunlight
+  • Burn-in caused by displaying static images for extended periods
+    (Note: OLED image retention after normal use is not covered under
+    Standard Warranty but is covered under Extended and Premium plans
+    if it occurs within the first 2 years)
+  • Water or liquid damage of any kind
+
+4.3 User and Third-Party Modifications
+  • Repairs or modifications performed by unauthorized service centers
+  • Damage caused by use of non-approved accessories or cables
+  • Software modifications, sideloading of unauthorized apps, or
+    rooting/jailbreaking the TV operating system
+  • Use of the TV for commercial or rental purposes
+
+4.4 Cosmetic and Consumable Items
+  • Normal fading or discoloration of plastic components over time
+  • Scratches on the screen due to cleaning or contact
+  • Remote control batteries
+  • Cleaning kits and accessories
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 5: HOW TO MAKE A WARRANTY CLAIM
+
+5.1 Before You File a Claim
+Before initiating a warranty claim, customers should:
+  1. Verify your TV is registered and the warranty is still active. You
+     can check your warranty status by entering your serial code at
+     support.vistatech.com or calling 1-800-VISTA-TV.
+  2. Attempt basic troubleshooting steps as outlined in your TV's
+     user manual or on our support website.
+  3. Have your proof of purchase ready (receipt or order confirmation).
+
+5.2 Filing a Claim
+To file a warranty claim:
+  • Online: Visit support.vistatech.com/claims and complete the claim form
+  • Phone: Call 1-800-VISTA-TV (Mon–Fri 8AM–8PM, Sat 9AM–5PM EST)
+  • In-person: Visit any authorized VistaTech service center
+
+When filing, you will need:
+  • Your TV's serial number (found on the label on the back of the TV
+    or in Settings > About > Serial Number)
+  • Proof of purchase showing the date of sale
+  • A description of the issue and, if possible, photos or video
+
+5.3 Claim Review Process
+  1. Initial Review (1–2 business days): A support agent reviews your
+     submission and verifies warranty eligibility.
+  2. Diagnostic Assessment (2–5 business days): A technician may contact
+     you to perform remote diagnostics or schedule an in-home visit.
+  3. Resolution Decision: Based on the diagnosis, we will either:
+     (a) Authorize a repair at an authorized service center
+     (b) Arrange an in-home repair (Extended/Premium plans)
+     (c) Issue a replacement unit
+     (d) Offer a prorated refund if repair/replacement is not feasible
+
+5.4 Turnaround Times
+  • Standard Warranty repairs: 7–14 business days after receiving the unit
+  • Extended Warranty on-site repairs: 3–7 business days after approval
+  • Premium Warranty advanced replacement: Replacement unit ships within
+    1 business day of claim approval
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 6: REPAIR AND REPLACEMENT POLICY
+
+6.1 Authorized Service Centers
+All warranty repairs must be performed by a VistaTech-authorized service
+center. Performing repairs at unauthorized locations voids the remaining
+warranty. A list of authorized service centers is available at
+vistatech.com/service-centers.
+
+6.2 Parts and Labor
+During the warranty period, all parts and labor costs for covered repairs
+are provided free of charge. Customers are responsible for shipping the TV
+to the service center; VistaTech will cover the return shipping.
+
+6.3 Replacement Units
+If a defective unit cannot be repaired within a reasonable timeframe,
+VistaTech will replace it with:
+  • The same model, if available in inventory
+  • A model of equal or greater value if the original model is discontinued
+  Replacement units carry the remainder of the original warranty term or
+  90 days from the replacement date, whichever is longer.
+
+6.4 Data and Settings
+VistaTech is not responsible for any loss of data, app settings, or
+configurations resulting from warranty service. Customers are advised to
+note their preferences before submitting a unit for repair or replacement.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 7: OUT-OF-WARRANTY SERVICE
+
+If your TV is out of warranty or the damage is not covered, VistaTech still
+offers repair services at standard rates:
+
+7.1 Diagnostic Fee
+A non-refundable diagnostic fee of $49 applies to all out-of-warranty
+service requests. This fee is credited toward the total repair cost if you
+choose to proceed with the repair.
+
+7.2 Repair Estimates
+After diagnosis, you will receive a written repair estimate. You may accept
+the repair, decline and receive your unit back, or request data recovery
+assistance if the issue involves the TV's internal storage.
+
+7.3 Common Out-of-Warranty Repair Costs (approximate)
+  • Screen replacement (cracked): $199–$599 depending on panel size
+  • Main board replacement: $149–$249
+  • Power supply repair: $89–$149
+  • HDMI board replacement: $99–$149
+  • Speaker system repair: $69–$99
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 8: FREQUENTLY ASKED QUESTIONS
+
+Q: My TV has a few dead pixels. Is this covered?
+A: Dead pixels are covered if there are 5 or more permanently non-functioning
+   pixels within any 1cm² area. Isolated 1–4 dead pixels do not meet the
+   coverage threshold under our Standard Warranty.
+
+Q: My TV screen has burn-in from leaving a static image on too long. Is this covered?
+A: Burn-in caused by user behavior (leaving static content displayed) is not
+   covered under the Standard Warranty. However, Extended and Premium warranty
+   holders may claim OLED image retention issues within the first 2 years of purchase.
+
+Q: Can I upgrade my warranty after purchase?
+A: Warranty upgrades are available within 30 days of original purchase only.
+   After this window, no upgrade is available.
+
+Q: My TV was damaged in a power surge. Is this covered?
+A: Power surge damage is excluded from all warranty tiers. We strongly recommend
+   connecting your TV through a surge protector. Your homeowner's or renter's
+   insurance may cover such events.
+
+Q: I bought the TV second-hand. Does the warranty transfer?
+A: VistaTech warranties are non-transferable and apply only to the original
+   purchaser. Second-hand buyers are not eligible for warranty service.
+
+Q: My TV is 2 months out of warranty. Can I get an exception?
+A: VistaTech may, at its sole discretion, offer goodwill service for units
+   that are up to 60 days past warranty expiration and exhibit defects
+   consistent with manufacturing faults. Contact our support team to request
+   a goodwill assessment.
+
+Q: What happens if VistaTech cannot repair my TV?
+A: If a covered unit cannot be repaired within a reasonable timeframe
+   (generally 21 business days), VistaTech will replace it with an equal
+   or better model, or offer a prorated refund based on the remaining
+   warranty period.
+
+Q: Do I need to register my TV to activate the warranty?
+A: Your warranty is valid from the date of purchase whether or not you
+   register. However, registering your TV at vistatech.com/register
+   speeds up the claims process and ensures you receive firmware update
+   notifications.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 9: LEGAL DISCLAIMERS
+
+9.1 Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VISTATECH SHALL NOT BE
+LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES
+(INCLUDING LOSS OF PROFITS, LOSS OF DATA, OR BUSINESS INTERRUPTION) ARISING
+OUT OF OR IN CONNECTION WITH THIS WARRANTY.
+
+9.2 Implied Warranties
+TO THE EXTENT PERMITTED BY LAW, ALL IMPLIED WARRANTIES, INCLUDING THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,
+ARE LIMITED IN DURATION TO THE WARRANTY PERIOD STATED HEREIN.
+
+9.3 Governing Law
+This warranty shall be governed by and construed in accordance with the
+laws of the State of Delaware, United States, without regard to conflict
+of law principles.
+
+9.4 Warranty Modifications
+VistaTech reserves the right to modify this warranty policy at any time.
+Changes will be communicated via our website and will apply to products
+purchased after the effective date of the change.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 10: CONTACT INFORMATION
+
+VistaTech Customer Support
+  Website:  support.vistatech.com
+  Email:    support@vistatech.com
+  Phone:    1-800-VISTA-TV (1-800-847-8288)
+  Hours:    Monday–Friday 8AM–8PM EST, Saturday 9AM–5PM EST
+
+VistaTech Corporate Headquarters
+  VistaTech Electronics Inc.
+  1200 Innovation Drive, Suite 400
+  Wilmington, DE 19801
+  United States
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+© 2024 VistaTech Electronics Inc. All rights reserved.
