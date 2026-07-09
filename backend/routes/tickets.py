@@ -5,8 +5,8 @@ from datetime import datetime, timezone
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
-from backend.db.database import get_conn
-from backend.services.rag import generate_ticket_title
+from db.database import get_conn
+from services.rag import generate_ticket_title
 
 router = APIRouter(prefix="/tickets", tags=["tickets"])
 

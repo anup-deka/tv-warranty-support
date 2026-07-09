@@ -1,5 +1,5 @@
 from openai import AsyncOpenAI
-from backend.config import settings
+from config import settings
 
 _client: AsyncOpenAI | None = None
 

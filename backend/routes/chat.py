@@ -6,9 +6,9 @@ from fastapi import APIRouter, HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
-from backend.db.database import get_conn
-from backend.routes.device import compute_warranty_status
-from backend.services.rag import build_rag_response
+from db.database import get_conn
+from routes.device import compute_warranty_status
+from services.rag import build_rag_response
 
 router = APIRouter(prefix="/chat", tags=["chat"])
 

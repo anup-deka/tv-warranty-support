@@ -2,7 +2,7 @@ import asyncpg
 from contextlib import asynccontextmanager
 from typing import AsyncGenerator
 
-from backend.config import settings
+from config import settings
 
 _pool: asyncpg.Pool | None = None
 

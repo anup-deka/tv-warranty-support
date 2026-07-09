@@ -3,9 +3,9 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.config import settings
-from backend.db.database import close_pool, get_pool
-from backend.routes import chat, device, tickets
+from config import settings
+from db.database import close_pool, get_pool
+from routes import chat, device, tickets
 
 
 @asynccontextmanager

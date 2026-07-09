@@ -1,5 +1,5 @@
-from backend.db.database import get_conn
-from backend.services.inference import embed_text, chat_completion
+from db.database import get_conn
+from services.inference import embed_text, chat_completion
 
 SYSTEM_PROMPT = """You are a helpful TV warranty support assistant for VistaTech Electronics.
 Your job is to help customers understand their warranty coverage and resolve issues.

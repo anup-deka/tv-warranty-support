@@ -2,7 +2,7 @@ from datetime import date
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
-from backend.db.database import get_conn
+from db.database import get_conn
 
 router = APIRouter(prefix="/device", tags=["device"])
 
