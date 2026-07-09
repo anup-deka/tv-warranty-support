@@ -4,6 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from config import settings
+from db.bootstrap import bootstrap
 from db.database import close_pool, get_pool
 from routes import chat, device, tickets
 
@@ -11,6 +12,7 @@ from routes import chat, device, tickets
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     await get_pool()
+    await bootstrap()
     yield
     await close_pool()
 
