@@ -1,0 +1,30 @@
+name: tv-warranty-frontend
+region: nyc
+
+# ── Frontend: Next.js ─────────────────────────────────────────────────────
+services:
+  - name: frontend
+    environment_slug: node-js
+    github:
+      repo: anup-deka/tv-warranty-support
+      branch: main
+      deploy_on_push: true
+    source_dir: frontend
+    build_command: npm ci && npm run build
+    run_command: npm run start
+    http_port: 3000
+    instance_size_slug: apps-s-1vcpu-0.5gb
+    instance_count: 1
+    health_check:
+      http_path: /
+    envs:
+      # Separate app: no ${backend.PUBLIC_URL} binding. Baked in at BUILD_TIME,
+      # so the backend app must be deployed first and its public URL set here.
+      - key: NEXT_PUBLIC_API_URL
+        scope: BUILD_TIME
+        value: SET_FROM_BACKEND_APP_URL
+      # RUN_TIME only: at BUILD_TIME, NODE_ENV=production makes `npm ci` skip
+      # devDependencies (tailwindcss / @tailwindcss/postcss), breaking next build.
+      - key: NODE_ENV
+        scope: RUN_TIME
+        value: production

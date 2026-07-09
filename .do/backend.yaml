@@ -1,0 +1,47 @@
+name: tv-warranty-backend
+region: nyc
+
+# ── Backend: FastAPI ──────────────────────────────────────────────────────
+services:
+  - name: backend
+    environment_slug: python
+    github:
+      repo: anup-deka/tv-warranty-support
+      branch: main
+      deploy_on_push: true
+    source_dir: backend
+    build_command: pip install -r requirements.txt
+    run_command: uvicorn main:app --host 0.0.0.0 --port 8080
+    http_port: 8080
+    instance_size_slug: apps-s-1vcpu-0.5gb
+    instance_count: 1
+    health_check:
+      http_path: /health
+    envs:
+      - key: DO_INFERENCE_BASE_URL
+        value: https://inference.do-ai.run/v1
+      - key: DO_INFERENCE_API_KEY
+        type: SECRET
+        value: YOUR_DO_INFERENCE_API_KEY
+      - key: DO_LLM_MODEL
+        value: llama3.3-70b-instruct
+      - key: DO_EMBEDDING_MODEL
+        value: gte-large-en-v1.5
+      - key: DATABASE_URL
+        type: SECRET
+        scope: RUN_TIME
+        value: SET_FROM_MCP_DB_CLUSTER_CONNECTION_STRING
+      - key: DO_SPACES_KEY
+        type: SECRET
+        value: YOUR_SPACES_ACCESS_KEY
+      - key: DO_SPACES_SECRET
+        type: SECRET
+        value: YOUR_SPACES_SECRET_KEY
+      - key: DO_SPACES_REGION
+        value: nyc3
+      - key: DO_SPACES_BUCKET
+        value: tv-warranty-policies
+      - key: DO_SPACES_ENDPOINT
+        value: https://nyc3.digitaloceanspaces.com
+      - key: DO_SPACES_POLICY_FILE
+        value: warranty_policy.txt
