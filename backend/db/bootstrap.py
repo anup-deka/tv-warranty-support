@@ -24,11 +24,12 @@ from services.inference import get_inference_client
 logger = logging.getLogger("bootstrap")
 
 _BACKEND_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-_REPO_ROOT = os.path.abspath(os.path.join(_BACKEND_DIR, ".."))
 
+# Data files live inside the backend/ tree so they are always present in the
+# deployed image (App Platform builds from source_dir: backend).
 SCHEMA_PATH = os.path.join(os.path.dirname(__file__), "schema.sql")
-SEED_PATH = os.path.join(_REPO_ROOT, "sample_data", "seed_devices.sql")
-LOCAL_POLICY_PATH = os.path.join(_REPO_ROOT, "sample_data", "warranty_policy.txt")
+SEED_PATH = os.path.join(_BACKEND_DIR, "sample_data", "seed_devices.sql")
+LOCAL_POLICY_PATH = os.path.join(_BACKEND_DIR, "sample_data", "warranty_policy.txt")
 
 CHUNK_SIZE_CHARS = 1800
 CHUNK_OVERLAP_CHARS = 200

@@ -23,12 +23,12 @@ tv-warranty-support/
 │   ├── config.py
 │   ├── routes/                # device, chat, tickets
 │   ├── services/              # inference client, RAG pipeline
-│   └── db/                    # schema.sql, database.py
+│   ├── db/                    # schema.sql, database.py, bootstrap.py
+│   └── sample_data/           # bundled so deploys can self-seed
+│       ├── warranty_policy.txt    # Sample warranty doc
+│       └── seed_devices.sql       # Sample serial codes
 ├── scripts/
 │   └── ingest_policy.py       # One-time policy indexing
-├── sample_data/
-│   ├── warranty_policy.txt    # Sample warranty doc
-│   └── seed_devices.sql       # Sample serial codes
 └── .do/
     └── app.yaml               # App Platform deployment spec
 ```
@@ -56,7 +56,7 @@ uvicorn main:app --reload --port 8000
 # Apply schema
 psql $DATABASE_URL -f backend/db/schema.sql
 # Seed sample devices
-psql $DATABASE_URL -f sample_data/seed_devices.sql
+psql $DATABASE_URL -f backend/sample_data/seed_devices.sql
 ```
 
 ### 3. Ingest the warranty policy

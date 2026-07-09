@@ -65,7 +65,7 @@ def download_from_spaces() -> str:
 
 def load_local_file() -> str:
     """Load policy document from local sample_data directory."""
-    local_path = os.path.join(os.path.dirname(__file__), "../sample_data/warranty_policy.txt")
+    local_path = os.path.join(os.path.dirname(__file__), "../backend/sample_data/warranty_policy.txt")
     print(f"Loading local file: {local_path}")
     with open(local_path, encoding="utf-8") as f:
         return f.read()
