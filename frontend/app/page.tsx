@@ -5,9 +5,9 @@ import { useRouter } from "next/navigation";
 import { lookupDevice } from "@/lib/api";
 
 const DEMO_SERIALS = [
-  { code: "SN-VISTA-2024-001", label: "Active warranty" },
-  { code: "SN-VISTA-2023-002", label: "Expiring soon" },
-  { code: "SN-LUMA-2021-005",  label: "Expired warranty" },
+  { code: "SN-VISTA-2024-001", label: "Active warranty", dot: "bg-green-500", text: "text-green-600" },
+  { code: "SN-VISTA-2023-002", label: "Expiring soon", dot: "bg-amber-500", text: "text-amber-600" },
+  { code: "SN-LUMA-2021-005",  label: "Expired warranty", dot: "bg-red-500", text: "text-red-500" },
 ];
 
 export default function HomePage() {
@@ -35,9 +35,13 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-[70vh]">
-      <div className="w-full max-w-md">
+      <div className="w-full max-w-md animate-fade-in-up">
         <div className="text-center mb-8">
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 border border-blue-100 px-3 py-1 text-xs font-medium text-blue-600 mb-4">
+            <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
+            AI-powered support
+          </span>
+          <h1 className="text-3xl font-bold tracking-tight mb-2 bg-gradient-to-br from-gray-900 via-gray-900 to-gray-500 bg-clip-text text-transparent">
             TV Warranty Support
           </h1>
           <p className="text-gray-500 text-sm leading-relaxed">
@@ -46,7 +50,7 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6">
+        <div className="bg-white/90 backdrop-blur rounded-2xl shadow-lg shadow-gray-900/5 ring-1 ring-gray-200/70 p-6">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label
@@ -81,9 +85,11 @@ export default function HomePage() {
             <button
               type="submit"
               disabled={loading || !serialCode.trim()}
-              className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-gray-200
-                         disabled:text-gray-400 text-white text-sm font-medium py-2.5
-                         rounded-lg transition flex items-center justify-center gap-2"
+              className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700
+                         hover:to-indigo-700 disabled:from-gray-200 disabled:to-gray-200
+                         disabled:text-gray-400 text-white text-sm font-semibold py-2.5
+                         rounded-lg shadow-md shadow-blue-500/25 disabled:shadow-none
+                         transition-all active:scale-[0.99] flex items-center justify-center gap-2"
             >
               {loading ? (
                 <>
@@ -98,20 +104,27 @@ export default function HomePage() {
         </div>
 
         <div className="mt-6">
-          <p className="text-xs text-gray-400 text-center mb-3">Demo serial codes</p>
+          <div className="flex items-center gap-3 mb-3">
+            <div className="h-px flex-1 bg-gray-200/80" />
+            <p className="text-xs font-medium text-gray-400">Demo serial codes</p>
+            <div className="h-px flex-1 bg-gray-200/80" />
+          </div>
           <div className="flex flex-col gap-2">
             {DEMO_SERIALS.map((d) => (
               <button
                 key={d.code}
                 onClick={() => setSerialCode(d.code)}
-                className="flex items-center justify-between bg-white border border-gray-200
-                           rounded-lg px-3.5 py-2.5 hover:border-blue-300 hover:bg-blue-50
-                           transition text-left group"
+                className="flex items-center justify-between bg-white/80 backdrop-blur ring-1 ring-gray-200/70
+                           rounded-xl px-3.5 py-2.5 hover:ring-blue-300 hover:bg-blue-50/60 hover:shadow-sm
+                           transition-all text-left group"
               >
-                <span className="font-mono text-sm text-gray-700 group-hover:text-blue-700">
-                  {d.code}
+                <span className="flex items-center gap-2.5">
+                  <span className={`w-2 h-2 rounded-full ${d.dot}`} />
+                  <span className="font-mono text-sm text-gray-700 group-hover:text-blue-700">
+                    {d.code}
+                  </span>
                 </span>
-                <span className="text-xs text-gray-400 group-hover:text-blue-500">
+                <span className={`text-xs font-medium ${d.text}`}>
                   {d.label}
                 </span>
               </button>
